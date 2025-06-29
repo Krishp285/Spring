@@ -20,7 +20,7 @@
             <td><%= e.getTitle() %></td>
             <td><%= e.getCategory() %></td>
             <td>₹<%= e.getAmount() %></td>
-            <td><%= e.getDate() %></td>
+            <td><%= e.getExpensedate() %></td>
         </tr>
         <%
                 }

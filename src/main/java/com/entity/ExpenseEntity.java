@@ -9,7 +9,7 @@ public class ExpenseEntity
     private String title;
     private String category;
     private double amount;
-    private String date;
+    private String expensedate;
     private int userid;
 
    

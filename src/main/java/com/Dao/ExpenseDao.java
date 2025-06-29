@@ -16,8 +16,8 @@ public class ExpenseDao {
     private JdbcTemplate stmt;
 
     public void addExpense(ExpenseEntity expense) {
-        stmt.update("INSERT INTO expenses (title, category, amount, date , userid) VALUES (?, ?, ?, ?, ?)",
-                expense.getTitle(), expense.getCategory(), expense.getAmount(), expense.getDate(), expense.getUserid());
+        stmt.update("INSERT INTO expenses (title, category, amount, expensedate , userid) VALUES (?, ?, ?, ?, ?)",
+                expense.getTitle(), expense.getCategory(), expense.getAmount(), expense.getExpensedate(), expense.getUserid());
     }
 
     public List<ExpenseEntity> getExpensesByUser(int userId) {

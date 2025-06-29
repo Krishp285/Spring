@@ -21,7 +21,7 @@
         <input type="number" step="0.01" name="amount" required /><br><br>
 
         <label>Date:</label>
-        <input type="date" name="date" required /><br><br>
+        <input type="date" name="expensedate" required /><br><br>
 
         <button type="submit">Add Expense</button>
     </form>
